@@ -10,7 +10,7 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = gets.to_i-1
-valid_move?(board, index)
+valid_move?(index)
 
 
 # other methods
