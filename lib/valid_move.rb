@@ -12,6 +12,14 @@ end
 
 # other methods
 
+
+
+
+=begin
+
+### test code
+
+
 def position_taken?(board, index)
 
     if board[index] != " " && board[index] != "" && board[index] != nil
@@ -22,12 +30,7 @@ def position_taken?(board, index)
 end
 
 
-=begin
-
-# test code
-
-
-# passing learn test code 1
+### passing learn test code 1
 
 def valid_move?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil && index.between?(0,8)
@@ -38,7 +41,7 @@ def valid_move?(board, index)
 end
 
 
-# passing learn test code 2
+### passing learn test code 2
 
 def valid_move?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil && index >= 1 && index <= 8
@@ -50,8 +53,7 @@ end
 
 
 
-## Working test code, won't pass learn tests, validates use of between method
-
+### Working test code, won't pass learn tests, validates use of between method
 
 def valid_move?(index)
   if index.between?(0,8) #validating the use of the between method
