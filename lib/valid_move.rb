@@ -9,7 +9,9 @@ def valid_move?(board, index)
   puts index
 end
     
-    
+# other method
+
+def between?()
     
 
 # test code
