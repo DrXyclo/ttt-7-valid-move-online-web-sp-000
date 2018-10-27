@@ -24,7 +24,10 @@ end
 
 =begin
 
-#passing learn test code
+# test code
+
+
+# passing learn test code 1
 
 def valid_move?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil && index.between?(0,8)
@@ -34,6 +37,9 @@ def valid_move?(board, index)
   end
 end
 
+
+# passing learn test code 2
+
 def valid_move?(board, index)
   if board[index] == " " || board[index] == "" || board[index] == nil && index >= 1 && index <= 8
     true
@@ -42,9 +48,10 @@ def valid_move?(board, index)
   end
 end
 
-# test code
+
 
 ## Working test code, won't pass learn tests, validates use of between method
+
 
 def valid_move?(index)
   if index.between?(0,8) #validating the use of the between method
@@ -58,13 +65,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = gets.to_i-1
 valid_move?(index)
 puts index
-
-
-#&& board[index] >= 1 && board[index] <= 8
-
-
-
-
 
 
 =end 
