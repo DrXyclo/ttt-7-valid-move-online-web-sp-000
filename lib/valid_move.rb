@@ -14,8 +14,8 @@ end
 # test code
 
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = 9
+board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
+index = 1
 valid_move?(board, index)
 
 
