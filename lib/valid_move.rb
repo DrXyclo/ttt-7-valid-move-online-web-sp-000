@@ -34,6 +34,14 @@ def valid_move?(board, index)
   end
 end
 
+def valid_move?(board, index)
+  if board[index] == " " || board[index] == "" || board[index] == nil && index >= 1 && index <= 8
+    true
+  else
+    false
+  end
+end
+
 # test code
 
 ## Working test code, won't pass learn tests, validates use of between method
