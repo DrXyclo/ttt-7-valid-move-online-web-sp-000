@@ -2,9 +2,9 @@
 
 def valid_move?(index)
   if index.between?(0,8)
-    true
+    puts "true"
   else
-    false
+    puts "false"
   end
 end
 
