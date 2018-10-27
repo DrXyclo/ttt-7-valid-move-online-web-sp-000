@@ -7,7 +7,12 @@ def valid_move?(board, index)
     false
   end
 end
-    
+
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = gets.to_i-1
+valid_move?(board, index)
+
+
 # other methods
 
 
@@ -16,9 +21,7 @@ end
 # test code
 
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = gets.to_i-1
-valid_move?(board, index)
+
 
 #&& board[index] >= 1 && board[index] <= 8
 
@@ -34,5 +37,11 @@ def valid_move?(board, index)
   end
 end
 
-
+def valid_move?(board, index)
+  if board[index] == " " || board[index] == "" || board[index] == nil && board[index].between?(0,8)
+    true
+  else
+    false
+  end
+end
 =end 
