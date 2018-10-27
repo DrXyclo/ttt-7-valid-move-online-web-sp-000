@@ -3,7 +3,9 @@
 def valid_move?(board, index)
   if board[index] > -1 && board[index] < 9
     true
-  else
+  elsif board[index] == " " && board[index] == "" && board[index] == nil
+    true
+  else 
     false
   end
 end 
@@ -14,7 +16,7 @@ end
 
 def position_taken?(board, index)
 
-    if board[index] != " " && board[index] != "" && board[index] != nil
+    if board[index] == " " && board[index] == "" && board[index] == nil
     true
     else
     false
