@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(board, index)
-  if board[index] == " " || board[index] == "" || board[index] == nil && index >= 1 && index <= 8
+  if board[index] != " " && board[index] != "" && board[index] != nil && index >= 1 && index <= 8
     true
   else
     false
@@ -13,13 +13,6 @@ end
 # other methods
 
 
-
-
-=begin
-
-### test code
-
-
 def position_taken?(board, index)
 
     if board[index] != " " && board[index] != "" && board[index] != nil
@@ -28,6 +21,13 @@ def position_taken?(board, index)
     false
     end
 end
+
+
+=begin
+
+### test code
+
+
 
 
 ### passing learn test code 1
