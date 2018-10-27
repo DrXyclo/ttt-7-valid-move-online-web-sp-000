@@ -16,7 +16,7 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = 1
-position_taken?(board, index)
+valid_move?(board, index)
 
 
 
