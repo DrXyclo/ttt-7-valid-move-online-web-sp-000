@@ -1,7 +1,26 @@
 # code your #valid_move? method here
 
+def valid_move?(board, index)
+  if board[index] == " " || board[index] == "" || board[index] == nil && index.between?(0,8)
+    true
+  else
+    false
+  end
+end
+
+
+
+# other methods
+
+
+=begin
+
+# test code
+
+## Working test code
+
 def valid_move?(index)
-  if index.between?(0,8)
+  if index.between?(0,8) #validating the use of the between method
     puts "true"
   else
     puts "false"
@@ -12,15 +31,6 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = gets.to_i-1
 valid_move?(index)
 puts index
-
-# other methods
-
-
-=begin
-
-# test code
-
-
 
 
 #&& board[index] >= 1 && board[index] <= 8
