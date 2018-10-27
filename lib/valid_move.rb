@@ -9,10 +9,10 @@ def valid_move?(board, index)
   puts index
 end
     
-# other method
+# other methods
 
-def between?(0,8)
-    
+
+=begin
 
 # test code
 
