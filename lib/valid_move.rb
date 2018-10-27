@@ -16,7 +16,7 @@ end
 
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = gets.strip.to_i-1
+index = gets.to_i-1
 valid_move?(board, index)
 
 
