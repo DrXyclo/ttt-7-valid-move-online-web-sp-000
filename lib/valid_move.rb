@@ -13,11 +13,23 @@ end
 # other methods
 
 
+
+
 =begin
+
+#passing learn test code
+
+def valid_move?(board, index)
+  if board[index] == " " || board[index] == "" || board[index] == nil && index.between?(0,8)
+    true
+  else
+    false
+  end
+end
 
 # test code
 
-## Working test code
+## Working test code, won't pass learn tests, validates use of between method
 
 def valid_move?(index)
   if index.between?(0,8) #validating the use of the between method
