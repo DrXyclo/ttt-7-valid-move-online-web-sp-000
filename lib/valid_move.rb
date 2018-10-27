@@ -11,7 +11,7 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = gets.to_i-1
 valid_move?(index)
-
+puts index
 
 # other methods
 
