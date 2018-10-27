@@ -52,6 +52,16 @@ def valid_move?(board, index)
 end
 
 
+### passing learn test code 3
+
+def valid_move?(board, index)
+  if position_taken?(board, index) && index.between?(0,8)
+    true
+  else
+    false
+  end
+end
+
 
 ### Working test code, won't pass learn tests, validates use of between method
 
