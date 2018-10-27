@@ -15,7 +15,7 @@ end
 
 
 board = [" ", "X", " ", " ", " ", " ", " ", " ", " "]
-index = 8
+index = 9
 valid_move?(board, index)
 
 
