@@ -11,7 +11,7 @@ end
     
 # other method
 
-def between?()
+def between?(0,8)
     
 
 # test code
